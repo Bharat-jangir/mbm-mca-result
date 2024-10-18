@@ -9,38 +9,52 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="logo.png">  </head>
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+  </head>
   <body class="bg-gray-100">
     <header
       class="text-white p-4 flex justify-between items-center"
       id="headermain"
     >
-    <a href="#">
-        <div class="flex items-center">
-          <img
-            alt="University Logo"
-            class="h-20 w-20 mr-4"
-            height="40"
-            src="logo.png"
-            width="40"
-          />
-          <div>
-            <h1 class="text-xl font-bold">एम बी एम विश्वविद्यालय</h1>
-            <h2 class="text-sm " style="font-weight: 700;font-size:1.4rem ;">MBM UNIVERSITY</h2>
-            <p class="text-xs" style="line-height: 1.3rem;">State University Govt. of Rajasthan</p>
-          </div>
-        </div>
-
-    </a>
-      <a class="text-white text-lg" href="https://mbmiums.in/(S(xtcckgdtqnufmzgzw2tzveug))/main.aspx" style="display: flex;flex-direction: row;font-weight: 500;font-size:0.9rem;">
+      <a href="#">
+      <div class="flex items-center">
         <img
           alt="University Logo"
           class="h-20 w-20 mr-4"
-          height="2"
-          src="homeicon.png"
-          width="1rem"
-          style="width: 1.5rem;height:1.5rem;margin-right: 2px;"
+          height="40"
+          src="logo.png"
+          width="40"
         />
+        <div>
+          <h1 class="text-xl font-bold">एम बी एम विश्वविद्यालय</h1>
+          <h2 class="text-sm" style="font-weight: 700; font-size: 1.4rem">
+            MBM UNIVERSITY
+          </h2>
+          <p class="text-xs" style="line-height: 1.3rem">
+            State University Govt. of Rajasthan
+          </p>
+        </div>
+      </div>
+
+      </a>
+      <a
+        href="https://mbmiums.in/(S(xtcckgdtqnufmzgzw2tzveug))/main.aspx"
+        class="text-white text-lg"
+        style="
+          display: flex;
+          flex-direction: row;
+          font-weight: 500;
+          font-size: 0.9rem;
+          align-items: center;
+        "
+      >
+        <img
+          alt="University Logo"
+          class="mr-2"
+          src="homeicon.png"
+          style="width: 1.5rem; height: 1.5rem"
+        />
+
         Home
       </a>
     </header>
@@ -48,42 +62,49 @@
       <img
         alt="Student studying with a laptop"
         class="object-cover"
-        style="height: 80vh;"
+        style="height: 80vh"
         src="background.jpg"
         width="1920"
       />
       <div class="absolute inset-0 flex items-center justify-center">
-        <div class="bg-black bg-opacity-70 p-8 rounded-lg text-white" style="width: 490px;">
+        <div
+          class="bg-black bg-opacity-70 p-8 rounded-lg text-white"
+          style="width: 490px"
+        >
           <h3 class="text-lg font-bold mb-4">
             MCA(CBCS) 2 Year ENGINEERING Ist SEM ( Computer Application )
             Examination Result 2022 - 2023
+            
           </h3>
           <form>
             <div class="mb-4 flex flex-row">
-                <table>
-                    <tr>
-                        <td>
-                            <label class="block mb-2" for="rollNumber" style="color: white;padding: 3px;"> Roll Number : </label>
-
-                        </td>
-                        <td>
-                            <input
-                              class="w-full p-2 rounded border border-gray-300"
-                              id="rollNumber"
-                              type="text"
-                              
-                            />
-
-                        </td>
-                    </tr>
-                </table>
+              <table>
+                <tr>
+                  <td>
+                    <label
+                      class="block mb-2"
+                      for="rollNumber"
+                      style="color: white; padding: 3px"
+                    >
+                      Roll Number :
+                    </label>
+                  </td>
+                  <td>
+                    <input
+                      class="w-full p-2 rounded border border-gray-300"
+                      id="rollNumber"
+                      type="text"
+                    />
+                  </td>
+                </tr>
+              </table>
             </div>
             <div class="flex justify-center">
               <button
                 class="bg-yellow-500 text-black px-4 py-2 rounded"
                 type="submit"
                 id="getresult"
-                style="color: white;"
+                style="color: white"
               >
                 Get Result
               </button>
@@ -97,16 +118,12 @@
           </form>
         </div>
       </div>
-
     </main>
     <div class="gorilla_container">
-      <button class="cancel_logo" id="cancel_logo" >x</button>  
-      <img src="gorrila.jpg" alt=""
-      class="gorrila_image"
-      >
+      <button class="cancel_logo" id="cancel_logo">x</button>
+      <img src="gorrila.jpg" alt="" class="gorrila_image" />
     </div>
     <footer class="bg-gray-200 text-center p-4">Managed by expedien</footer>
     <script src="index.js"></script>
-
   </body>
 </html>
