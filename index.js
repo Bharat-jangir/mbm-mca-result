@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     function checkRollNo(roll) {
-        if (data.includes(roll)) {
+        let roll_no=roll.toUpperCase();
+        if (data.includes(roll_no)) {
             return true;
         }
         alert("Please Enter Correct RollNo");
